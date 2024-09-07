@@ -1,0 +1,19 @@
+import wollok.game.*
+import juego.*
+
+program juegoX {
+    //configuracion del juego
+    game.width(10)
+    game.height(7)
+    game.cellSize(50)
+    //buscar otro tile set para granja
+    game.boardGround("mapaJuego.png")
+    game.title("Juego Practica")
+    //iniciar juego
+    game.start()
+
+
+    game.addVisualCharacter(protagonista)
+
+    
+}
